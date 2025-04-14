@@ -29,6 +29,22 @@ Nombre: petstore-karate/
 4. Consultar nuevamente el usuario actualizado
 5. Eliminar el usuario
 
+# Contexto del ejercicio
+
+La página https://petstore.swagger.io/ proporciona la documentación sobre APIs de una “PetStore”.  
+Como parte del ejercicio de automatización, se solicitó utilizar un software de pruebas REST (en este caso, Karate DSL) para:
+
+- Identificar las entradas requeridas por la API (por ejemplo, username, email, etc.).
+- Capturar las salidas esperadas y validar el contenido de las respuestas.
+- Utilizar variables, datos dinámicos y condiciones para adaptar los escenarios.
+- Implementar lógica de validación para los diferentes endpoints utilizados:
+  - POST /user: para creación
+  - GET /user/{username}: para consulta
+  - PUT /user/{username}: para actualización
+  - DELETE /user/{username}: para eliminar
+
+Este proyecto responde a ese requerimiento implementando cinco pruebas principales con reportes y validaciones automáticas.
+
 # Ejecución
 
 Desde la raíz del proyecto, ejecuta:
