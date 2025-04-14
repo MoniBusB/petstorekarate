@@ -9,17 +9,6 @@ Este proyecto contiene la automatización de pruebas funcionales tipo REST sobre
 - Karate 1.3.1
 - Git
 
-# Estructura del proyecto
-Nombre: petstore-karate/ 
-    src
-        test
-            java
-                example
-                    petstore
-                        petstore.feature
-    pom.xml
-    README.md
-    conclusiones.txt
 
 # Casos de prueba implementados
 
