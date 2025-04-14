@@ -1,0 +1,31 @@
+CONCLUSIONES DEL PROYECTO PETSTORE-KARATE
+-----------------------------------------
+
+Este ejercicio me permitió reforzar mis conocimientos en la automatización de pruebas REST utilizando Karate DSL. Durante el desarrollo del proyecto, enfrenté ciertos desafíos relacionados con la asincronía e inestabilidad de la API pública de PetStore, lo que me llevó a implementar lógica de reintento para validar correctamente las respuestas esperadas.
+
+Aprendizajes clave:
+
+- Cómo estructurar un proyecto de pruebas con Karate utilizando Maven.
+- Configuración de escenarios en .feature, files con enfoque BDD (Dado/Cuando/Entonces).
+- Validación de respuestas con match, uso de expresiones como #notnull y el manejo de errores comunes.
+- Implementación de reintentos con karate.repeat() y condiciones dinámicas para mejorar la estabilidad de los test.
+- Generación de reportes automáticos para visualizar los resultados de las pruebas ejecutadas.
+
+Observaciones:
+
+- La API de Swagger PetStore, al ser pública, a veces no refleja inmediatamente los cambios (por ejemplo, después de crear o actualizar un usuario). Esto hizo necesario implementar validaciones condicionales y reintentos.
+- Karate es una herramienta muy poderosa que facilita el trabajo de automatización sin necesidad de escribir código Java, permitiéndome enfocar directamente en el diseño de pruebas funcionales.
+
+Próximos pasos:
+
+- Incluir validaciones más robustas con múltiples campos.
+- Integrar estas pruebas en un pipeline de CI/CD.
+- Explorar la automatización de pruebas SOAP (si es requerido) o la integración con servicios reales internos.
+
+Estoy satisfecha con el resultado, ya que logré completar los 5 escenarios propuestos y comprender mejor cómo manejar respuestas inestables. Además, me siento más confiada en el uso de Karate como herramienta para pruebas E2E de APIs.
+
+---
+
+Mónica Bustamante
+QA Automation
+Abril 2025
